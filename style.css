@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+body {
+    background-color: blueviolet;
+}
+
+p {
+    font-family: "Matemasie", sans-serif;
+}
+
+img {
+    width: 450px;
+    position: absolute;
+    bottom: 270px;
+    left: 600px;
+}
+
+/* den værste metode er nok position absolute fordi at vis jeg indsætter et element efter ha brugt position abosolute så ka det hele ændre sig */
+
+ul li:first-child {
+    list-style: circle;
+    color: white;
+}
+label{
+    margin-bottom: 100px;
+}
+button{
+    margin-top: 100px;
+}
+
+h2{
+    color: brown;
+}
